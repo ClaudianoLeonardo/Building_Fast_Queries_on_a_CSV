@@ -5,7 +5,7 @@
   
 ## Descrição do projeto:
   ### Esse projeto possui três funcionalidades principais:
-   - **Dado um id de uma mensagem no Reddit, retornar todas as informações sobre a mensagem:** Para essa funcionalidade foram implementadas duas funções, ``` get_message_for_id(self, id):``` e 
+   - **Dado um id de uma mensagem no Reddit, retornar todas as informações sobre a mensagem:** Para essa funcionalidade foram implementadas duas funções, ``` get_message_for_id(self, id)``` e ```get_message_for_id_fast(self, id)```. Para primeira função é realizado uma busca percorrendo todo o dataset e comparando o id passado como argumento com o id da variável de iteração a cada iteração, esse algoritmo apresenta complexidade linear. Para segunda função é utlizado um dicionário, ```key: id``` e ```value: mensagem```, para executar a busca utiliza-se o operador ```in``` 
    
           
    
