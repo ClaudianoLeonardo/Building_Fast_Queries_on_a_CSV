@@ -1,7 +1,7 @@
 # Building Fast Queries on a CSV
 
 ## Sobre o projeto:
-  O projeto é baseado no [Guided Project: Building Fast Queries on a CSV](https://app.dataquest.io/c/86/m/481/guided-project%3A-building-fast-queries-on-a-csv) da plataforma [dataquest](https://app.dataquest.io/). O projeto tem o objetivo de mostrar e comparar a eficiência de algoritmos de diferentes complexidades para realizar buscas em arquivos CSV, evidenciando qual é a melhor implementação para se ter uma busca rápida, ou seja, qual algoritmo possui complexidade ótima.
+  O projeto é baseado no [Guided Project: Building Fast Queries on a CSV](https://app.dataquest.io/c/86/m/481/guided-project%3A-building-fast-queries-on-a-csv) da plataforma [dataquest](https://app.dataquest.io/). O projeto tem o objetivo de mostrar e comparar a eficiência de algoritmos de diferentes complexidades para realizar buscas em arquivos CSV, evidenciando qual é a melhor implementação para se ter uma busca rápida, ou seja, qual algoritmo possui complexidade ótima. Esse projeto utiliza o dataset [The Reddit Climate Change Dataset](https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset)
   
 ## Descrição do projeto:
   ### A classe Clima possui três funcionalidades principais:
@@ -9,7 +9,6 @@
    - **Dado um limite inferior e superior da coluna "sentiment", retornar todas as mensagens com valores de sentimento entre os limites inferior e superior:** Para essa funcionalidade foi implementada uma função ```get_by_sentiment(self, sentiment_inf, sentiment_sup)```. Para determinar se a mensagem está dentro dos limites passados como argumento, a função percorre o dataset e verifica se a variável de iteração está dentro do intervalo. Esse algoritmo apresenta complexidade linear.
    - **Dado um valor de parâmetro, retornar duas mensagens cuja soma do valor da coluna "score" é igual ao parâmetro. Retornar -1 se não existir:** Para essa funcionalidade foram implementadas duas funções, ```TwoScoreSum(self, target)``` e ```TwoScoreSum_fast(self, target)```. Para primeira função foram utilizados dois laços de repitação para percorrer o dataset ao mesmo tempo e obter-se os valores a serem comparados. Esse algoritmo apresenta complexidade quadrática. Para segunda função temos uma implentação utilizando dicionários, implementação semelhante ao problema do TwoNumberSum, dado um alvo e o resultado da subtração entre o alvo e o atual valor da variável de iteração estiver contido no dicionário, o valor da subtração e o valor atual da variável de iteração, são os números que resultam na soma do alvo. Esse algoritmo possui complexidade linear.   
    
-  Esse projeto utiliza o dataset [The Reddit Climate Change Dataset](https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset)
 
  ## Como executar:
   Com o arquivo ```Clima.py``` na pasta do projeto execute:
