@@ -10,3 +10,10 @@
    - **Dado um valor de parâmetro, retornar duas mensagens cuja soma do valor da coluna "score" é igual ao parâmetro. Retornar -1 se não existir:** Para essa funcionalidade foram implementadas duas funções, ```TwoScoreSum(self, target)``` e ```TwoScoreSum_fast(self, target)```. Para primeira função foram utilizados dois laços de repitação para percorrer o dataset ao mesmo tempo e obter-se os valores a serem comparados. Esse algoritmo apresenta complexidade quadrática. Para segunda função temos uma implentação utilizando dicionários, implementação semelhante ao problema do TwoNumberSum, dado um alvo e o resultado da subtração entre o alvo e o atual valor da variável de iteração estiver contido no dicionário, o valor da subtração e o valor atual da variável de iteração, são os números que resultam na soma do alvo. Esse algoritmo possui complexidade linear.   
    
   Esse projeto utiliza o dataset [The Reddit Climate Change Dataset](https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset)
+
+ ## Como executar:
+  Com o arquivo ```Clima.py``` na pasta do projeto execute:
+  ```python
+  from Clima import Clima
+  ```
+  Exemplo de utilização dos métodos da classe Clima: [Project](https://github.com/ClaudianoLeonardo/Building_Fast_Queries_on_a_CSV/blob/main/Project.ipynb)
