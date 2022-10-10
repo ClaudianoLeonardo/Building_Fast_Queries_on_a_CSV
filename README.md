@@ -16,3 +16,17 @@
   from Clima import Clima
   ```
   Exemplo de utilização dos métodos da classe Clima: [Project](https://github.com/ClaudianoLeonardo/Building_Fast_Queries_on_a_CSV/blob/main/Project.ipynb)
+## Discentes participantes do projeto:
+  
+  [Claudiano Leonardo da Silva](https://github.com/ClaudianoLeonardo)
+  
+  [David Willian Pereira Jatobá](https://github.com/DavidWillian7)
+
+## Referências:
+  
+  [datastructure](https://github.com/ivanovitchm/datastructure)
+  
+  [dataquest](https://app.dataquest.io/)
+  
+  [Kaggle](https://www.kaggle.com/datasets/pavellexyr/the-reddit-climate-change-dataset)
+  
