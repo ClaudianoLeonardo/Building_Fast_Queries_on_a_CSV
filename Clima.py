@@ -46,9 +46,9 @@ class Clima:
   def TwoScoreSum(self, target):
     for row1 in self.rows:
       for row2 in self.rows:
-        if row1[9] + row2[9] == target:
+        if int(row1[9]) + int(row2[9]) == target:
           return [row1, row2]
-        return -1
+    return -1
 
   def TwoScoreSum_fast(self, target):
     for current_number in self.score:
